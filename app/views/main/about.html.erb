@@ -1,2 +1,10 @@
-<h1>Main#about</h1>
-<p>Find me in app/views/main/about.html.erb</p>
+<% provide(:title, "About")%>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%yield (:title)%> | The Challenge</title>
+	</head>
+	<h1>Main#about</h1>
+	<p>Find me in app/views/main/about.html.erb</p>
+</body>
+</html>
