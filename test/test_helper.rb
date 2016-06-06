@@ -1,7 +1,7 @@
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../../config/environment', __FILE__)
 require 'rails/test_help'
-require "minitest/reporters"
+require "minitest/reporters" #next 2 lines add some helpful graphics in testing terminal
 Minitest::Reporters.use!
 
 class ActiveSupport::TestCase
