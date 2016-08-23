@@ -58,11 +58,39 @@ p {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 9px;
+  /*padding-top: 9px;*/
   font-weight: bold;
 }
 
 #logo:hover {
   color: #fff;
   text-decoration: none;
+}
+.wrapper{
+    min-height:100%;
+    width:100%;
+    position:relative;
+    background-color:Black;
+    display:inline-block;
+}
+.sidebar{
+    width:15%;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    position:absolute;
+    background-color:Aqua;
+}
+.content{
+    min-height:500px;
+    width:80%;
+    position:relative;
+    background-color:Gray;
+    float:right;
+}
+.side-button{
+  position:relative;
+  width: 100%;
+  background-color:Black;
+  display:inline-block;
 }
