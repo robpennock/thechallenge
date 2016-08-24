@@ -24,7 +24,7 @@ $(document).ready(function() {
 			});
     });
     $('#mp-btn').click(function() {
-		$('#mid-music').fadeOut(180, function(){
+		$('#mid-music').fadeOut(800, function(){
         	$('#mid-music').empty().append("<h1>Moments Passed</h1>" + 
         		"<p>We’re under attack, but most of us are too numb to know." + 
         		" Open your eyes really look at who you are. Do you like being so naïve? " + 

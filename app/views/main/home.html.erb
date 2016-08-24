@@ -1,16 +1,19 @@
 <% provide(:title, "Home") %> <!--works with layout/application.html.erb to link title-->
+<div class="container">
+<body  class="homepage" >
 <div align = "center">
-<h1>Main#home</h1>
-<p>Find me in app/views/main/home.html.erb</p>
+	<h1>The Challenge Official</h1>
+	<p></p>
+
+	  <h2>
+	    West Coast Melodic Hardcore
+	  </h2>
+
+	  <%= link_to "Check out our Music!", 'music', class: "btn btn-lg btn-primary" %>
+
 </div>
-<div class="center jumbotron">
-  <h1>Welcome to the Sample App</h1>
-
-  <h2>
-    This is the home page for the
-    <a href="http://www.railstutorial.org/">Ruby on Rails</a>
-    sample application.
-  </h2>
-
-  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+<div align="center">
+	<%= image_tag("BoomBox-Shirt-zBack.jpg") %>
+</div>
+</body>
 </div>

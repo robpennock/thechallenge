@@ -6,6 +6,8 @@
 
 body {
   padding-top: 60px;
+  background-color: black;
+  color: white;
 }
 
 section {
@@ -47,6 +49,7 @@ h2 {
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+  text-align: center;
 }
 
 /* header */
@@ -93,4 +96,30 @@ p {
   width: 100%;
   background-color:Black;
   display:inline-block;
+}
+/*home page specific*/
+
+
+
+.musicpage{
+  padding-top: 100px;
+  background-color: black;
+  color: white;
+  background: url(BoomBox-Shirt-zBack.jpg) no-repeat center center fixed;
+  /*
+  -webkit-background-size: 75%;
+  -moz-background-size: 75%;
+  -o-background-size: 75%;
+  background-size: 75%;*/
+}
+/*music page css*/
+
+.btn {
+    background: #1a1a1a;
+    color: white;
+    border-color: #cccccc;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open > .dropdown-toggle.btn {
+    background: #a6a6a6;
 }
