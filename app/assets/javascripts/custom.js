@@ -109,7 +109,7 @@ $(document).ready(function() {
     });
     $('#ltf-btn').click(function() {
         $('#mid-music').fadeOut(800, function(){
-        	$('#mid-music').empty().append("<h2>Light the Flame</h2>" + 
+        	$('#mid-music').empty().append("<h1>Light the Flame</h1>" + 
         		"<p>Everything I have I would gladly give, so much you’ll never know This is my time, " + 
         		"this is my life, it’s all I’ve ever known</p>" +
         		"<p>If I could go back and change things I’d do it all the same. " + 
@@ -126,12 +126,12 @@ $(document).ready(function() {
         		"<p>We’re trying to reshape the face of power in the States. " + 
         		"Breaking down the arguments used to segregate Humans from ourselves and power just the same. " + 
         		"It’s on us to light the flame.</p>" + 
-        		"<p>Light the flame.</p>").fadeIn(1000);
+        		"<p>Light the flame.</p>").fadeIn(100);
         });    
     });
     $('#fn-btn').click(function() {
         $('#mid-music').fadeOut(800, function(){
-        	$('#mid-music').empty().append("<h2>False Narratives</h2>" +
+        	$('#mid-music').empty().append("<h1>False Narratives</h1>" +
         		"<p>I am so confused by all the systems around me. " + 
         		"Where power defines all, individuals get their gains. " + 
         		"Disconnected, we're vicious and ugly we follow every move, dreaming of our day</p>" +
