@@ -36,6 +36,7 @@ gem 'jquery-turbolinks'
 gem 'unicorn'
 
 # Access an IRB console on exception pages or by using <%= console %> in views
+#MUST BE IN BOTH DEVELOPMENT AND PRODUCTION OR SERVER EATS SHIT
 gem 'web-console', '~> 2.0'
 
 group :development, :test do
@@ -58,6 +59,7 @@ group :test do
 end
 
 group :production do
+  #need pg for deploy on heroku
   gem 'pg',             '0.17.1'
   
   gem 'rails_12factor', '0.0.2'
