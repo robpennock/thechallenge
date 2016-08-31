@@ -32,17 +32,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
-h1{
-  font-size: 16px;
-}
-h2{
-  font-size: 12px;
-}
-h3{
-  font-size:10px;
-}
-
-
 h1 {
   font-size: 3em;
   letter-spacing: -2px;
@@ -58,11 +47,14 @@ h2 {
   color: #777;
 }
 
+h3{
+}
+
 p {
   font-family: 'Crimson Text', serif;
   font-size: 1.1em;
   line-height: 1.7em;
-  text-align: center;
+
 }
 
 /* header */
@@ -73,8 +65,8 @@ p {
   font-size: 1.7em;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: -1px;
-  /*padding-top: 9px;*/
+  /*letter-spacing: -1px;*/
+  padding-top: 9px;
   font-weight: bold;
 }
 
@@ -82,37 +74,8 @@ p {
   color: #fff;
   text-decoration: none;
 }
-.wrapper{
-    min-height:100%;
-    width:100%;
-    position:relative;
-    background-color:Black;
-    display:inline-block;
-}
-.sidebar{
-    width:15%;
-    top:0px;
-    left:0px;
-    bottom:0px;
-    position:absolute;
-    background-color:Aqua;
-}
-.content{
-    min-height:500px;
-    width:80%;
-    position:relative;
-    background-color:Gray;
-    float:right;
-}
-.side-button{
-  position:relative;
-  width: 100%;
-  background-color:Black;
-  display:inline-block;
-}
-/*home page specific*/
 
-
+/*page specific*/
 
 .musicpage{
   padding-top: 100px;
@@ -127,12 +90,17 @@ p {
 #mid-music {
   padding-left: 15px;
   padding-right: 15px;
-  border: 2px solid #5c5c3d;
-  border-radius: 12px;
 }
 /* music song title css*/
 #mid-music > h1{
-  padding-bottom: 1cm;
+  padding-bottom: 0.5cm;
+  padding-top: 0.5cm;
+  border-bottom: 2px solid #5c5c3d;
+}
+
+#bottom-line{
+  padding-bottom: 0.5cm;
+  padding-top: 0.5cm;
   border-bottom: 2px solid #5c5c3d;
 }
 
@@ -149,3 +117,5 @@ p {
     border-color:white;
     color: black;
 }
+
+
