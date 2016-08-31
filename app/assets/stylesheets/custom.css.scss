@@ -1,13 +1,15 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://https://fonts.googleapis.com/css?family=Crimson+Text:600);
 
 /* universal */
 
 body {
+  font-family: 'Raleway', sans-serif;
   padding-top: 60px;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 section {
@@ -30,6 +32,17 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
+h1{
+  font-size: 16px;
+}
+h2{
+  font-size: 12px;
+}
+h3{
+  font-size:10px;
+}
+
+
 h1 {
   font-size: 3em;
   letter-spacing: -2px;
@@ -41,12 +54,12 @@ h2 {
   font-size: 1.2em;
   letter-spacing: -1px;
   margin-bottom: 30px;
-  text-align: center;
   font-weight: normal;
   color: #777;
 }
 
 p {
+  font-family: 'Crimson Text', serif;
   font-size: 1.1em;
   line-height: 1.7em;
   text-align: center;
@@ -103,9 +116,8 @@ p {
 
 .musicpage{
   padding-top: 100px;
-  background-color: black;
-  color: white;
-  background: url(BoomBox-Shirt-zBack.jpg) no-repeat center center fixed;
+  background-color: white;
+  color: black;
   /*
   -webkit-background-size: 75%;
   -moz-background-size: 75%;
@@ -113,21 +125,27 @@ p {
   background-size: 75%;*/
 }
 #mid-music {
-  border: 2px solid white;
-  border-radius: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 2px solid #5c5c3d;
+  border-radius: 8px;
 }
+/* music song title css*/
 #mid-music > h1{
   padding-bottom: 1cm;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #5c5c3d;
 }
+
 /*music page css*/
 
 .btn {
-    background: #1a1a1a;
-    color: white;
-    border-color: #cccccc;
+    background: white;
+    color: black;
+    border-color: white;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open > .dropdown-toggle.btn {
-    background: #a6a6a6;
+    background: #d7d7c1;
+    border-color:white;
+    color: black;
 }
