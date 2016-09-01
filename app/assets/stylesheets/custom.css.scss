@@ -1,6 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Raleway:900);
 @import url(https://https://fonts.googleapis.com/css?family=Crimson+Text:600);
 
 /* universal */
@@ -74,7 +74,9 @@ p {
   color: #fff;
   text-decoration: none;
 }
-
+#small-text{
+  font-weight: 600;
+}
 /*page specific*/
 
 .musicpage{
