@@ -40,7 +40,6 @@ h1 {
   font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 30px;
-  text-align: center;
 }
 
 h2 {
@@ -61,7 +60,7 @@ p {
 
 }
 
-/* header */
+/* header and header logo*/
 
 #logo {
   float: left;
@@ -80,6 +79,13 @@ p {
 }
 #small-text{
   font-weight: 600;
+}
+
+/*Challenge logo*/
+
+.clogo{
+  padding-left: 5%;
+  line-height: 90%;  
 }
 /*page specific*/
 
