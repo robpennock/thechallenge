@@ -2,14 +2,14 @@
 $(document).ready(function() {
     $('#ssdy-btn').click(function() {
         $('#mid-music').fadeOut(800, function(){
-        	$('#mid-music').empty().append("<h1>Same Shit Different Year</h1>" +
+        	$('#mid-music').empty().append("<h1>SAME SHIT, DIFFERENT YEAR</h1>" +
 	        	"<p>Thar be no lyrics here. Go watch the Twilight Zone episode <i>Maple Street</i></p></br></br>").fadeIn(1000);
 		});
     });
 
     $('#air-btn').click(function() {
         $('#mid-music').fadeOut(800, function(){
-        	$('#mid-music').empty().append("<h1>As I Remember</h1>" +
+        	$('#mid-music').empty().append("<h1>AS I REMEMBER</h1>" +
 	        	"<p>As I sit and try, to remember all the things I wanted to convey to you, I come up blank.</p>" +
 	        	"<p>'Cause seeing you in front of me, has caused me to go numb I've forgotten all the things," + 
 	        	" I wanted us to overcome.</p>" + 
@@ -25,7 +25,7 @@ $(document).ready(function() {
     });
     $('#mp-btn').click(function() {
 		$('#mid-music').fadeOut(800, function(){
-        	$('#mid-music').empty().append("<h1>Moments Passed</h1>" + 
+        	$('#mid-music').empty().append("<h1>MOMENTS PASSED</h1>" + 
         		"<p>We’re under attack, but most of us are too numb to know." + 
         		" Open your eyes really look at who you are. Do you like being so naïve? " + 
         		"Taking every word as fact. You’ve got to use your head, before your moments passed.</p>" + 
@@ -46,7 +46,7 @@ $(document).ready(function() {
 	});
     $('#ny-btn').click(function() {
         $('#mid-music').fadeOut(800, function(){
-        	$('#mid-music').empty().append("<h1>Next Year</h1>" + 
+        	$('#mid-music').empty().append("<h1>NEXT YEAR</h1>" + 
         		"<p>Have you, had enough. Lying to yourself and everybody else.</p>" + 
         		"<p>There's no way that I can trust; you've lost my respect and my faith. " + 
         		"All alone and with everything, you're lucky all it's cost. " + 
@@ -69,7 +69,7 @@ $(document).ready(function() {
     });
     $('#va-btn').click(function() {
         $('#mid-music').fadeOut(800, function(){
-        	$('#mid-music').empty().append("<h1>Venting Anger</h1>" + 
+        	$('#mid-music').empty().append("<h1>VENTING ANGER</h1>" + 
         		"<p>One call brings to an end restraints that held us back our dreams of better lives side by side.</p>" +
         		"<p>Now I’m left to hold the slack All alone still just a kid this weight, " + 
         		"my family torn apart; my job to mend.</p>" +
@@ -86,7 +86,7 @@ $(document).ready(function() {
     });
     $('#lfy-btn').click(function() {
         $('#mid-music').fadeOut(800, function(){
-        	$('#mid-music').empty().append("<h1>Live for Yourself</h1>" +
+        	$('#mid-music').empty().append("<h1>LIVE FOR YOURSELF</h1>" +
         		"<p>Make a stand - for yourself - or Decide to be like everyone else. " + 
         		"You've got to find your own path, find your - own path. " + 
         		"We've got to find it in ourselves, not to be like everyone else. " + 
@@ -109,7 +109,7 @@ $(document).ready(function() {
     });
     $('#ltf-btn').click(function() {
         $('#mid-music').fadeOut(800, function(){
-        	$('#mid-music').empty().append("<h1>Light the Flame</h1>" + 
+        	$('#mid-music').empty().append("<h1>LIGHT THE FLAME</h1>" + 
         		"<p>Everything I have I would gladly give, so much you’ll never know This is my time, " + 
         		"this is my life, it’s all I’ve ever known</p>" +
         		"<p>If I could go back and change things I’d do it all the same. " + 
@@ -131,7 +131,7 @@ $(document).ready(function() {
     });
     $('#fn-btn').click(function() {
         $('#mid-music').fadeOut(800, function(){
-        	$('#mid-music').empty().append("<h1>False Narratives</h1>" +
+        	$('#mid-music').empty().append("<h1>FALSE NARRATIVES</h1>" +
         		"<p>I am so confused by all the systems around me. " + 
         		"Where power defines all, individuals get their gains. " + 
         		"Disconnected, we're vicious and ugly we follow every move, dreaming of our day</p>" +

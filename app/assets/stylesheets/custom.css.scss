@@ -1,13 +1,13 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import url(https://fonts.googleapis.com/css?family=Raleway:900);
-@import url(https://https://fonts.googleapis.com/css?family=Crimson+Text:600);
+@import url(https://https://fonts.googleapis.com/css?family=Crimson+Text:700);
 
 /* universal */
 
 body {
   font-family: 'Raleway', sans-serif;
-  padding-top: 60px;
+  padding-top: 100px;
   background-color: white;
   color: black;
 }
@@ -37,20 +37,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   letter-spacing: -2px;
   margin-bottom: 30px;
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.5em;
   letter-spacing: -1px;
   margin-bottom: 30px;
   font-weight: normal;
-  color: #777;
 }
 
 h3{
+  font-size: 1.0em;
 }
 
 p {
@@ -85,7 +85,7 @@ p {
 
 .clogo{
   padding-left: 5%;
-  line-height: 90%;  
+  line-height: 95%;  
 }
 /*page specific*/
 
@@ -101,19 +101,28 @@ p {
 }
 #mid-music {
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 20px;
 }
 /* music song title css*/
 #mid-music > h1{
   padding-bottom: 0.5cm;
   padding-top: 0.5cm;
   border-bottom: 2px solid #5c5c3d;
+  font-size: 2.0em;
 }
 
 #bottom-line{
   padding-bottom: 0.5cm;
   padding-top: 0.5cm;
   border-bottom: 2px solid #5c5c3d;
+}
+
+.single-line{
+  display: inline-block;
+}
+.image-right{
+  align: right;
+  text-align: right;  
 }
 
 /*music page css*/
