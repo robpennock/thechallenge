@@ -1,4 +1,6 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
+<!-- original static navbar -->
+
+<!--<header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
     <%= link_to "The Challenge", '/', id: "logo" %>
     <nav>
@@ -8,4 +10,25 @@
       </ul>
     </nav>
   </div>
+</header>
+-->
+<header>
+	<div class="navbar navbar-fixed-top navbar-inverse">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+	        <span class="sr-only">Toggle Navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <%= link_to "The Challenge", '/', id: "logo" %>
+	    </div> <!-- end div class="navbar-header" -->
+	    <div class="navbar-collapse collapse navbar-responsive-collapse">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><%= link_to "MUSIC",   'music' %></li>
+	        <li><%= link_to "ABOUT", 'about' %></li>
+	      </ul>
+	    </div> <!-- end div class="collapse navbar-collapse" -->
+	  </div> <!-- end div class="container" -->
+	</div> <!-- end div class="navbar navbar-default navbar-fixed-top" -->
 </header>
