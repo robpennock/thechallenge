@@ -60,6 +60,14 @@ p {
 
 }
 
+/* dope little trick for streching elements*/
+.stretch-element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 /* header and header logo*/
 
 #logo {
@@ -84,8 +92,7 @@ p {
 /*Challenge logo*/
 
 .clogo{
-  padding-left: 5%;
-  line-height: 95%;  
+  line-height: 97%; 
 }
 .igm-box{
   width: 100%;
@@ -131,7 +138,18 @@ p {
 
 /*music page css*/
 
-.btn {
+#toggleDemo{
+  background: white;
+  color: black;
+  border-color: white;
+  
+}
+.button:hover, .button:focus, .button:active, .button.active, .open > .dropdown-toggle.btn {
+    background: #d7d7c1;
+    border-color:white;
+    color: black;
+}
+.button, .btn {
     background: white;
     color: black;
     border-color: white;
