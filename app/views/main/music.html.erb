@@ -1,10 +1,10 @@
 <% provide(:title, "Music") %>
 <body>
-	<div class = "container">
+	<div class = "container-fluid">
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-3 col-md-3 col-xs-3">
 				<div class = "thumb">
-					<%= image_tag("Lock_Transparent_200.png") %>
+					<%= image_tag("Lock_Transparent_200.png", class: "img-responsive") %>
 				</div>
 					<p class="clogo"><i>Straight foward Hardcore</br>from the left coast</i>
 					</p>
@@ -13,7 +13,7 @@
 				<div>
 					<h2 style="padding-left: 27%;">Lyrics</h2>
 				</div>
-				<div class="btn-group-vertical" id="small-text">
+				<div class="btn-group-vertical btn-responsive" id="small-text">
 				  <button type="button" class="btn btn-default left" id="ssdy-btn">SAME SHIT, DIFFERENT YEAR</button>
 				  <button type="button" class="btn btn-default left" id="air-btn">AS I REMEMBER</button>
 				  <button type="button" class="btn btn-default left" id="mp-btn">MOMENTS PASSED</button>
@@ -24,7 +24,7 @@
 				  <button type="button" class="btn btn-default left" id="fn-btn">FALSE NARRATIVES</button>
 				</div>
 			</div>
-			<div class="col-md-6" style="padding-top: 1.0em">
+			<div class="col-md-6 col-sm-6 col-xs-6" style="padding-top: 1.0em">
 				<iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=2196975472/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://thechallengeband.bandcamp.com/album/bad-apples">Bad Apples by The Challenge</a></iframe>
 				</br>	
 				<div id="mid-music">
@@ -34,9 +34,9 @@
 					</br>
 				</div>
 			</div>
-			<div class="col-md-3" align="right">
+			<div class="col-md-3 col-sm-3 col-xs-3" align="right">
 				<div align="right">
-						<%= image_tag("Bad_Apples_Front_250.jpg", class: "image-right") %>
+						<%= image_tag("Bad_Apples_Front_250.jpg", class: "image-right img-responsive") %>
 				</div>
 			</div>	
 		</div>

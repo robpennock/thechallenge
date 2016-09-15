@@ -1,5 +1,5 @@
 <% provide(:title, "Home") %> <!--works with layout/application.html.erb to link title-->
-<div class="container">
+<div class="container-fluid">
 	<body  class="homepage" >
 		<!--
 		<div align = "center">
@@ -14,31 +14,31 @@
 
 		</div>-->
 		<div class="row">
-			<div class = "col-md-12">
-				<div align="center">
-					<%= image_tag("BadApplesIntro_v2.jpg") %>
+			<div class = "col-md-12 col-sm-12 col-xs-12">
+				<div class="img-box" align="center">
+					<%= image_tag("BadApplesIntro_v2.jpg", class: "img-responsive") %>
 				</div>
 			</div>
 		</div>
 		<div class="row" style="padding-top: 20px;">
-			<div class="col-md-2">
+			<div class="col-md-2 col-sm-2 col-xs-2">
 			</div>
-			<div class="col-md-1">
-				<%= link_to image_tag("Soundcloud.png"), "https://soundcloud.com/thechallengeband" %>
+			<div class="col-md-1 col-sm-1 col-xs-1" style="align=left">
+				<%= link_to image_tag("Soundcloud.png", style: "align: left;"), "https://soundcloud.com/thechallengeband" %>
 			</div>
-			<div class="col-md-1">
+			<div class="col-md-1 col-sm-1 col-xs-1">
 			</div>
-			<div class="col-md-1">
+			<div class="col-md-1 col-sm-1 col-xs-1">
 				<%= link_to image_tag("Spotify_Icon_RGB_Green_48.png"), "http://thechallengeband.bandcamp.com/" %>
 			</div>
-			<div class="col-md-1">
+			<div class="col-md-1 col-sm-1 col-xs-1">
 			</div>
-			<div class="col-md-2" align="center">
+			<div class="col-md-2 col-sm-2 col-xs-2" align="center">
 				<%= link_to image_tag("bc-logotype-color-48.png"), "http://thechallengeband.bandcamp.com/" %>
 			</div>
-			<div class="col-md-1">
+			<div class="col-md-1 col-sm-1 col-xs-1">
 			</div>
-			<div class="col-md-1">
+			<div class="col-md-1 col-sm-1 col-xs-1">
 				<%= link_to image_tag("fb-logo-blue.jpg"), "http://facebook.com/thechallengeband" %>
 			</div>
 			<div class="col-md-2">
