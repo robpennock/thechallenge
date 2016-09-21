@@ -59,6 +59,13 @@ p {
   line-height: 1.7em;
 
 }
+.over{
+  overflow: hidden;
+}
+.auto{
+  overflow: auto;
+}
+
 
 /* dope little trick for streching elements*/
 .stretch-element {
@@ -113,6 +120,7 @@ p {
 #mid-music {
   padding-left: 15px;
   padding-right: 20px;
+  overflow: auto;
 }
 /* music song title css*/
 #mid-music > h1{

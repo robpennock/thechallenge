@@ -2,14 +2,15 @@
 <body>
 	<div class = "container-fluid">
 		<div class="row">
-			<div class="col-md-3 col-md-3 col-xs-3">
-				<div align = "center">
+			<div class="col-md-3 col-md-3 col-xs-5">
+				<div align = "left">
 				<div class = "thumb">
 					<%= image_tag("Lock_Transparent_200.png", class: "img-responsive", align: "center") %>
 				</div>
+					
+				<div style="padding-left: 1.2em;">
 					<p class="clogo"><i>Straight foward Hardcore</br>from the left coast</i>
 					</p>
-				<div>
 				</div>
 				</div>
 				<!--
@@ -18,22 +19,24 @@
 				</div>
 				-->
 				<!-- Trigger Button HTML -->
-				<div align="center">
-				<input type="button" class="btn btn-default" align ="center" id="small-text "data-toggle="collapse" data-target="#toggleDemo" value="Click for Lyrics">
-				<!-- Collapsible Element HTML -->
-				<div id="toggleDemo" class="collapse">
-					<div class="btn-group-vertical btn-responsive" id="small-text">
-					  <button type="button" class="btn btn-default left" id="ssdy-btn">SSDY</button>
-					  <button type="button" class="btn btn-default left" id="air-btn">AS I REMEMBER</button>
-					  <button type="button" class="btn btn-default left" id="mp-btn">MOMENTS PASSED</button>
-					  <button type="button" class="btn btn-default left" id="ny-btn">NEXT YEAR</button>
-					  <button type="button" class="btn btn-default left" id="va-btn">VENTING ANGER</button>
-					  <button type="button" class="btn btn-default left" id="lfy-btn">LIVE FOR YOURSELF</button>
-					  <button type="button" class="btn btn-default left" id="ltf-btn">LIGHT THE FLAME</button>
-					  <button type="button" class="btn btn-default left" id="fn-btn">FALSE NARRATIVES</button>
+
+				<div align="left" style="padding-left: 10%">
+					<input type="button" class="btn btn-default over" align ="center" id="small-text "data-toggle="collapse" data-target="#toggleDemo" value="Click for Lyrics">
+					
+					<div id="toggleDemo" class="collapse">
+						<div class="btn-group-vertical btn-responsive over" id="small-text">
+						  <button type="button" class="btn btn-default left" id="ssdy-btn">SSDY</button>
+						  <button type="button" class="btn btn-default left" id="air-btn">AS I REMEMBER</button>
+						  <button type="button" class="btn btn-default left" id="mp-btn">MOMENTS PASSED</button>
+						  <button type="button" class="btn btn-default left" id="ny-btn">NEXT YEAR</button>
+						  <button type="button" class="btn btn-default left" id="va-btn">VENTING ANGER</button>
+						  <button type="button" class="btn btn-default left" id="lfy-btn">LIVE FOR YOURSELF</button>
+						  <button type="button" class="btn btn-default left" id="ltf-btn">LIGHT THE FLAME</button>
+						  <button type="button" class="btn btn-default left" id="fn-btn">FALSE NARRATIVES</button>
+						</div>
 					</div>
 				</div>
-				</div>				<!--
+				<!--
 				<div class="btn-group-vertical btn-responsive" id="small-text">
 				  <button type="button" class="btn btn-default left" id="ssdy-btn">SSDY</button>
 				  <button type="button" class="btn btn-default left" id="air-btn">AS I REMEMBER</button>
@@ -44,13 +47,13 @@
 				  <button type="button" class="btn btn-default left" id="ltf-btn">LIGHT THE FLAME</button>
 				  <button type="button" class="btn btn-default left" id="fn-btn">FALSE NARRATIVES</button>
 				</div>
-				-->
+			-->
 			</div>
-			
-			<div class="col-md-6 col-sm-6 col-xs-6" style="padding-top: 1.0em">
+			<div class="col-md-6 col-sm-6 col-xs-7" style="padding-top: 1.0em;">
 				<!--
 				<iframe class="stretch-element" style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=2196975472/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://thechallengeband.bandcamp.com/album/bad-apples">Bad Apples by The Challenge</a></iframe>
 				-->
+				<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2196975472/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://thechallengeband.bandcamp.com/album/bad-apples">Bad Apples by The Challenge</a></iframe>
 				</br>	
 				<div id="mid-music">
 					<h1 align="left">MUSIC</h1>
@@ -59,10 +62,11 @@
 					</br>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-3 col-xs-3" align="right">
+			<div class="col-md-3 col-sm-3 col-xs-12" align="right">
 				<div align="right">
-						<iframe class="stretch-element" style="border: 0; width: 100%; height: 400px;" src="https://bandcamp.com/EmbeddedPlayer/album=2196975472/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://thechallengeband.bandcamp.com/album/bad-apples">Bad Apples by The Challenge</a></iframe>
+						<%= image_tag("Bad_Apples_Front_250.jpg", class: "image-right img-responsive") %>
 				</div>
+
 			</div>	
 		</div>
 
