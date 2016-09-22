@@ -3,7 +3,7 @@ $(document).ready(function() {
     $('#ssdy-btn').click(function() {
         $('#mid-music').fadeOut(800, function(){
         	$('#mid-music').empty().append("<h1>SAME SHIT, DIFFERENT YEAR</h1>" +
-	        	"<p>Thar be no lyrics here. Go watch the Twilight Zone episode <i>Maple Street</i></p></br></br>").fadeIn(1000);
+	        	"<p>Thar be no lyrics here. Go watch the Twilight Zone episode <i>The Monsters are Due on Maple Street</i></p></br></br>").fadeIn(1000);
 		});
     });
 
