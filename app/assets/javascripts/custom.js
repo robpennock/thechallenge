@@ -150,4 +150,8 @@ $(document).ready(function() {
         		"<p>There is more to life than security</p>").fadeIn(1000);
         });    
     });
+    $('.pull-down').each(function() {
+        var $this = $(this);
+        $this.css('margin-top', $this.parent().height() - $this.height())
+    });
 });
