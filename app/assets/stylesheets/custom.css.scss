@@ -86,7 +86,7 @@ a:active {
 }
 footer {
   font-family: "Times New Roman", Times, serif;
-  padding-top: 100px;
+  padding-top: 150px;
 
 }
 
@@ -98,6 +98,15 @@ footer {
   width: 100%;
   height: 100%;
 }
+
+.full-width{
+  width: 100%;
+}
+.lyrics-button{
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
 /* header and header logo*/
 
 #logo {
@@ -133,6 +142,16 @@ footer {
 }
 /*page specific*/
 
+.single-line{
+  display: inline-block;
+}
+.image-right{
+  align: right;
+  text-align: right;  
+}
+
+/*music page css*/
+
 .musicpage{
   padding-top: 100px;
   background-color: white;
@@ -142,6 +161,14 @@ footer {
   -moz-background-size: 75%;
   -o-background-size: 75%;
   background-size: 75%;*/
+}
+
+
+#toggleDemo{
+  background: white;
+  color: black;
+  border-color: white;
+  
 }
 #mid-music {
   padding-left: 15px;
@@ -156,6 +183,10 @@ footer {
   font-size: 2.0em;
 }
 
+#lyrics-id {
+  border: 2px solid black;
+  border-radius: 5px;
+}
 
 #bottom-line{
   padding-bottom: 0.5cm;
@@ -163,22 +194,12 @@ footer {
   border-bottom: 2px solid #5c5c3d;
 }
 
-.single-line{
-  display: inline-block;
-}
-.image-right{
-  align: right;
-  text-align: right;  
+#ssdy-btn{
+  border-top: 2px solid black;
 }
 
-/*music page css*/
+/*----------css for buttons accross entire site--------------*/
 
-#toggleDemo{
-  background: white;
-  color: black;
-  border-color: white;
-  
-}
 .button:hover, .button:focus, .button:active, .button.active, .open > .dropdown-toggle.btn {
     background: #d7d7c1;
     border-color:white;
