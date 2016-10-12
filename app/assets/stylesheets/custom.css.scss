@@ -84,10 +84,20 @@ a:active {
 .auto{
   overflow: auto;
 }
+
 footer {
   font-family: "Times New Roman", Times, serif;
-  padding-top: 150px;
+  padding: 2px;
+  color: white;
+  background: black;
 
+}
+.spacer{
+  padding: 15%;
+}
+
+.height-93{
+  line-height: 93%;
 }
 
 /* dope little trick for streching elements*/
