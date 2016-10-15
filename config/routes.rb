@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'songs/new'
+
   root 'main#home'
 
   get 'home' => 'main#home'
