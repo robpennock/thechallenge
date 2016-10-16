@@ -1,5 +1,5 @@
 <% provide(:title, "Home") %> <!--works with layout/application.html.erb to link title-->
-<div class="container-fluid">
+<div class="container">
 	<body  class="homepage" >
 		<!--
 		<div align = "center">
@@ -15,34 +15,26 @@
 		</div>-->
 		<div class="row">
 			<div class = "col-md-12 col-sm-12 col-xs-12">
-				<div class="img-box" align="center">
+				<div class="img-box" style="margin-left: auto; margin-right: auto;">
 					<%= image_tag("BadApplesIntro_v2.jpg", class: "img-responsive") %>
 				</div>
 			</div>
 		</div>
-		<div class="row" style="padding-top: 20px;">
-			<div class="col-md-2 col-sm-2 hidden-xs">
-			</div>
-			<div class="col-md-1 col-sm-1 col-xs-2">
-				<%= link_to image_tag("FacebookActive.png"), "http://facebook.com/thechallengeband", style: "align:left" %>
-			</div>
-			<div class="col-md-1 col-sm-1 col-xs-1">
-			</div>
-			<div class="col-md-1 col-sm-1 col-xs-2">
-				<%= link_to image_tag("SpotifyActive.png"), "http://thechallengeband.bandcamp.com/" %>
-			</div>
-			<div class="col-md-1 col-sm-1 col-xs-1">
-			</div>
-			<div class="col-md-2 col-sm-2 col-xs-2" align="center">
-				<%= link_to image_tag("BandcampActive.png"), "http://thechallengeband.bandcamp.com/" %>
-			</div>
-			<div class="col-md-1 col-sm-1 col-xs-1">
-			</div>
-			<div class="col-md-1 col-sm-1 col-xs-1">
-				<%= link_to image_tag("SoundcloudActive.png", style: "align: left;"), "https://soundcloud.com/thechallengeband" %>
-			</div>
-			<div class="col-md-2 col-xs-2">
-				
+		<div>
+			<div class="row" style="padding-top: 20px; width: 75%; margin-left: auto; margin-right: auto;">
+				<div class="col-md-3 col-sm-3 col-xs-3">
+					<%= link_to image_tag("SoundcloudActive.png", style: "width: 45px; margin-left: auto; margin-right: auto;"), "https://soundcloud.com/thechallengeband" %>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-3">
+					<%= link_to image_tag("SpotifyActive.png", style: "width: 45px; margin-left: auto; margin-right: auto;"), "http://thechallengeband.bandcamp.com/" %>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-3">
+
+					<%= link_to image_tag("FacebookActive.png", style: "width: 45px; margin-left: auto; margin-right: auto;"), "http://facebook.com/thechallengeband"%>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-3">
+					<%= link_to image_tag("BandcampActive.png", style: "width: 45px; margin-left: auto; margin-right: auto;"), "http://thechallengeband.bandcamp.com/" %>
+				</div>
 			</div>
 		</div>
 	</body>
