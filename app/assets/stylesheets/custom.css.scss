@@ -86,19 +86,33 @@ a:active {
 }
 
 footer {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.0em;
   padding: 2px;
   color: white;
   background: black;
 
 }
 .spacer{
-  padding: 15%;
+  padding: 8%;
+}
+
+.spacer-bottom{
+  padding-bottom: 4%;
+}
+
+.spacer-top{
+  padding-top: 4%;
 }
 
 .height-93{
   line-height: 93%;
 }
+
+.height-97{
+  line-height: 97%;
+}
+
 
 /* dope little trick for streching elements*/
 .stretch-element {
@@ -115,6 +129,7 @@ footer {
 
 .three-q-width{
   width: 75%;
+  height: auto
 }
 
 .half-width{
@@ -135,9 +150,8 @@ footer {
   color: #fff;
   text-transform: uppercase;
   /*letter-spacing: -1px;*/
-  padding-top: 3px;
+  padding-top: 6px;
   font-weight: bold;
-  padding-left: 10px;
 }
 
 #logo:hover {
@@ -153,8 +167,10 @@ footer {
 /*Challenge logo*/
 
 .clogo{
-  line-height: 97%; 
+  height: 50%;
+  width: auto;
 }
+
 .igm-box{
   width: 100%;
   height: auto;
@@ -236,4 +252,44 @@ footer {
     color: black;
 }
 
+.navbar .brand { 
+    max-height: 40px;
+    max-width: 70%; 
+    /*overflow: visible*/
+    padding-top: 0;
+    padding-bottom: 0; 
+}
 
+.smedia-link{
+  width: 45px; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.media-row{
+  padding-top: 20px; 
+  width: 75%; 
+  margin-left: 8%; 
+  margin-right: auto;
+}
+
+
+@media screen and (min-width: 768px) {
+    .media-row{
+      padding-top: 20px; 
+      width: 75%; 
+      margin-left: 15%; 
+      margin-right: auto;
+    }
+}
+
+/*--------------large screen specific--------------*/
+
+@media screen and (min-width: 1024px) {
+    .media-row{
+      padding-top: 20px; 
+      width: 75%; 
+      margin-left: 18%; 
+      margin-right: auto;
+    }
+}

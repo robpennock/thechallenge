@@ -21,21 +21,7 @@
 			</div>
 		</div>
 		<div>
-			<div class="row" style="padding-top: 20px; width: 75%; margin-left: auto; margin-right: auto;">
-				<div class="col-md-3 col-sm-3 col-xs-3">
-					<%= link_to image_tag("SoundcloudActive.png", style: "width: 45px; margin-left: auto; margin-right: auto;"), "https://soundcloud.com/thechallengeband" %>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-3">
-					<%= link_to image_tag("SpotifyActive.png", style: "width: 45px; margin-left: auto; margin-right: auto;"), "http://thechallengeband.bandcamp.com/" %>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-3">
-
-					<%= link_to image_tag("FacebookActive.png", style: "width: 45px; margin-left: auto; margin-right: auto;"), "http://facebook.com/thechallengeband"%>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-3">
-					<%= link_to image_tag("BandcampActive.png", style: "width: 45px; margin-left: auto; margin-right: auto;"), "http://thechallengeband.bandcamp.com/" %>
-				</div>
-			</div>
+			<%= render 'layouts/medialinks' %>
 		</div>
 	</body>
 </div>
