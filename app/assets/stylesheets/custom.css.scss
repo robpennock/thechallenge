@@ -45,7 +45,7 @@ h1 {
 h2 {
   font-size: 1.5em;
   letter-spacing: -1px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   font-weight: normal;
 }
 
@@ -86,9 +86,9 @@ a:active {
 }
 
 footer {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.0em;
-  padding: 2px;
+  padding: 4px;
   color: white;
   background: black;
 
@@ -113,6 +113,29 @@ footer {
   line-height: 97%;
 }
 
+.height-99{
+  line-height: 99%;
+}
+
+.height-102{
+  line-height: 102%;
+}
+
+.height-115{
+  line-height: 115%;
+}
+
+.liner-top{
+  border-top: 2px solid black;  
+}
+
+.liner-bottom{
+  border-bottom: 2px solid black;  
+}
+
+.block-border{
+  border: 1px solid #d0d4db;
+}
 
 /* dope little trick for streching elements*/
 .stretch-element {
@@ -211,22 +234,28 @@ footer {
   overflow: auto;
 }
 /* music song title css*/
+/*
 #mid-music > h1{
   padding-bottom: 0.5cm;
   padding-top: 0.5cm;
   border-bottom: 2px solid #5c5c3d;
   font-size: 2.0em;
 }
-
+*/
 #lyrics-id {
   border: 2px solid black;
   border-radius: 5px;
 }
 
-#bottom-line{
+.bottom-line{
   padding-bottom: 0.5cm;
   padding-top: 0.5cm;
-  border-bottom: 2px solid #5c5c3d;
+  border-bottom: 2px solid black;
+}
+.top-line{
+  padding-bottom: 0.5cm;
+  padding-top: 0.5cm;
+  border-top: 2px solid black;
 }
 
 #ssdy-btn{
@@ -260,6 +289,10 @@ footer {
     padding-bottom: 0; 
 }
 
+#nav-left-shift{
+  margin-left: -3%;
+}
+
 .smedia-link{
   width: 45px; 
   margin-left: auto; 
@@ -279,6 +312,17 @@ footer {
       padding-top: 20px; 
       width: 75%; 
       margin-left: 15%; 
+      margin-right: auto;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  /* For portrait layouts only */
+
+  .media-row{
+      padding-top: 20px; 
+      width: 75%; 
+      margin-left: 16%; 
       margin-right: auto;
     }
 }
